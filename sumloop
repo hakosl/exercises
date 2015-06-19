@@ -1,0 +1,10 @@
+def sum_loop(values)
+  output = 0
+  values.each do |value|
+  	value.to_int
+    += value
+  end
+  output
+end
+
+sum_loop(gets.join(" "))
